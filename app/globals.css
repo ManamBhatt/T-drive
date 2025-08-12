@@ -1,10 +1,9 @@
-/* Tailwind directives must be at the top */
+/* Tailwind directives must be at the very top */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Imports (after Tailwind) */
-@import "tailwindcss";
+/* Use tailwindcss-animate for animations */
 @import "tailwindcss-animate";
 
 @custom-variant dark (&:is(.dark *));
